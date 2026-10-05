@@ -1,5 +1,5 @@
 ---
-name: cross-system-briefing
+name: anythingmcp-cross-system-briefing
 description: Answer a business question that needs data from more than one connected system, such as a customer briefing (orders, invoices, location, tax id), open or late orders with the customers waiting for them, or stock below reorder level.
 ---
 

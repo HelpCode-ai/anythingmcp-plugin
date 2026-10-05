@@ -1,5 +1,5 @@
 ---
-name: connect-a-system
+name: anythingmcp-connect-a-system
 description: Add a business system (ERP, online shop, accounting, CRM, marketplace, messaging or data API) to the user's AnythingMCP workspace from the chat, without the user ever typing credentials into the conversation.
 ---
 

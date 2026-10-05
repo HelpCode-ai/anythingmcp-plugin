@@ -1,0 +1,16 @@
+# AnythingMCP plugin
+
+> Plugin distribution for the hosted AnythingMCP MCP server (https://cloud.anythingmcp.com/mcp). AnythingMCP connects AI clients to a company's ERP, accounting, online shop, CRM, SQL databases and internal REST, SOAP, GraphQL or OData APIs.
+
+## Plugin files
+- [Cursor manifest](.cursor-plugin/plugin.json)
+- [Claude manifest](.claude-plugin/plugin.json)
+- [GitHub Copilot manifest](.github/plugin/plugin.json)
+- [Portable manifest](plugin.json) and [MCP config](mcp.json)
+- [Gemini CLI extension](gemini-extension.json)
+- [Rule](rules/anythingmcp.mdc) and [agent](agents/anythingmcp.agent.md)
+- Skills: [get started](skills/anythingmcp-get-started/SKILL.md), [cross-system briefing](skills/anythingmcp-cross-system-briefing/SKILL.md), [connect a system](skills/anythingmcp-connect-a-system/SKILL.md), [status](skills/anythingmcp-status/SKILL.md)
+
+## Product
+- [AnythingMCP](https://anythingmcp.com)
+- [Server source](https://github.com/HelpCode-ai/anythingmcp)
