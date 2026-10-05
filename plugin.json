@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "anythingmcp",
+  "version": "1.0.0",
+  "description": "Work with the business systems your company connected to AnythingMCP (ERP, accounting, online shops, CRM, SQL databases and internal REST, SOAP, GraphQL or OData APIs) from your AI client: cross-system lookups, record linking, connectors added from the chat and confirmed write actions.",
+  "author": {
+    "name": "helpcode.ai GmbH",
+    "url": "https://anythingmcp.com"
+  },
+  "homepage": "https://anythingmcp.com",
+  "repository": "https://github.com/HelpCode-ai/anythingmcp-plugin",
+  "license": "AGPL-3.0-only",
+  "keywords": ["mcp", "erp", "sap", "odoo", "shopware", "datev", "accounting", "e-commerce", "crm", "sql", "openapi", "business-data"]
+}
