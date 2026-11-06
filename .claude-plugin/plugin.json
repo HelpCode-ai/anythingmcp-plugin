@@ -1,7 +1,7 @@
 {
   "name": "anythingmcp",
-  "version": "1.0.0",
-  "description": "Your ERP, accounting, online shop, CRM and SQL systems (SAP, DATEV, Odoo, Shopware, weclapp and 260+ more, or any REST, SOAP, GraphQL or OData API) as MCP tools, with skills for cross-system briefings and adding a system from the chat.",
+  "version": "1.1.0",
+  "description": "Your ERP, accounting, online shop, CRM and SQL systems (SAP, DATEV, Odoo, Shopware, weclapp and 700+ more, or any REST, SOAP, GraphQL or OData API) as MCP tools, with skills for cross-system briefings, database queries, company file search and adding a system from the chat.",
   "author": {
     "name": "helpcode.ai GmbH",
     "email": "info@helpcode.ai",
@@ -26,9 +26,15 @@
     "openapi",
     "integrations",
     "business-data",
-    "no-code"
+    "no-code",
+    "database",
+    "file-search",
+    "agent-skills"
   ],
-  "skills": "./skills/",
-  "agents": "./agents/",
-  "mcpServers": "./.mcp.json"
+  "agents": [
+    "./agents/anythingmcp.agent.md"
+  ],
+  "mcpServers": "./.mcp.json",
+  "privacyPolicyUrl": "https://anythingmcp.com/privacy-policy",
+  "supportUrl": "https://anythingmcp.com/contact"
 }

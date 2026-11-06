@@ -1,7 +1,7 @@
 {
   "name": "anythingmcp",
-  "version": "1.0.0",
-  "description": "Connects Gemini CLI to the business systems your company connected to AnythingMCP: ERP, accounting, online shops, CRM, SQL databases and internal APIs.",
+  "version": "1.1.0",
+  "description": "Connects Gemini CLI to the business systems your company connected to AnythingMCP: ERP, accounting, online shops, CRM, SQL databases, company files and internal APIs, from a catalog of 700+ connectors.",
   "mcpServers": {
     "anythingmcp": {
       "httpUrl": "https://cloud.anythingmcp.com/mcp",
