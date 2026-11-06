@@ -1,15 +1,30 @@
 # AnythingMCP plugin
 
-> Plugin distribution for the hosted AnythingMCP MCP server (https://cloud.anythingmcp.com/mcp). AnythingMCP connects AI clients to a company's ERP, accounting, online shop, CRM, SQL databases and internal REST, SOAP, GraphQL or OData APIs.
+> Plugin distribution for the hosted AnythingMCP MCP server (https://cloud.anythingmcp.com/mcp). AnythingMCP connects AI clients to a company's ERP, accounting, online shop, CRM, SQL databases, company files and internal REST, SOAP, GraphQL or OData APIs, from a catalog of 700+ connectors with 13,000+ tools.
 
 ## Plugin files
 - [Cursor manifest](.cursor-plugin/plugin.json)
-- [Claude manifest](.claude-plugin/plugin.json)
+- [Claude manifest](.claude-plugin/plugin.json) and [Claude Code marketplace](.claude-plugin/marketplace.json)
 - [GitHub Copilot manifest](.github/plugin/plugin.json)
 - [Portable manifest](plugin.json) and [MCP config](mcp.json)
 - [Gemini CLI extension](gemini-extension.json)
 - [Rule](rules/anythingmcp.mdc) and [agent](agents/anythingmcp.agent.md)
-- Skills: [get started](skills/anythingmcp-get-started/SKILL.md), [cross-system briefing](skills/anythingmcp-cross-system-briefing/SKILL.md), [connect a system](skills/anythingmcp-connect-a-system/SKILL.md), [status](skills/anythingmcp-status/SKILL.md)
+
+## Skills
+- [anythingmcp-get-started](skills/anythingmcp-get-started/SKILL.md): which systems are connected and what to ask
+- [anythingmcp-cross-system-briefing](skills/anythingmcp-cross-system-briefing/SKILL.md): answers that combine several systems
+- [anythingmcp-connect-a-system](skills/anythingmcp-connect-a-system/SKILL.md): add a catalog connector from the chat, secrets on a one-time link
+- [anythingmcp-query-a-database](skills/anythingmcp-query-a-database/SKILL.md): read-only SQL or MongoDB queries, schema first
+- [anythingmcp-search-company-files](skills/anythingmcp-search-company-files/SKILL.md): find and read documents in File Search folders, with citations
+- [anythingmcp-add-your-own-api](skills/anythingmcp-add-your-own-api/SKILL.md): turn your own REST, SOAP, GraphQL or OData API into tools via the dashboard
+- [anythingmcp-status](skills/anythingmcp-status/SKILL.md): health check, connector by connector
+
+## Install
+- Claude Code: `/plugin marketplace add HelpCode-ai/anythingmcp-plugin`, then `/plugin install anythingmcp@anythingmcp`
+- Skills CLI: `npx skills add HelpCode-ai/anythingmcp-plugin`
+- Cursor: https://cursor.directory/plugins/anythingmcp
+- Gemini CLI: `gemini extensions install https://github.com/HelpCode-ai/anythingmcp-plugin`
+- Any MCP client: remote server https://cloud.anythingmcp.com/mcp (OAuth)
 
 ## Product
 - [AnythingMCP](https://anythingmcp.com)
